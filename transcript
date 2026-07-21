@@ -1,0 +1,194 @@
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 11:31:01 on Jul 21,2026
+# vlog -reportprogress 300 Edge_Detector.V FSM_Controller.V Top.V Up_Dn_cnt.V Wtime_Decoder.V Wtime_ROM.V seven_seg_D.V 
+# ** Note: (vlog-220) 'C:\Users\user\AppData\Local\quartus\modelsim.ini' is used as the ini file.
+# ** Note: (vlog-223) The environment variable MODELSIM will be deprecated in future releases. Please use QSIM_INI instead.
+# -- Compiling module D_ff
+# -- Compiling module Edge_Detector
+# -- Compiling module FSM_Controller
+# -- Compiling module Top
+# -- Compiling module Up_Dn_cnt
+# -- Compiling module Wtime_Decoder
+# -- Compiling module Wtime_ROM
+# -- Compiling module seven_seg_D
+# 
+# Top level modules:
+# 	Top
+# End time: 11:31:01 on Jul 21,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 11:31:01 on Jul 21,2026
+# vlog -reportprogress 300 DUT_TB.SV 
+# ** Note: (vlog-220) 'C:\Users\user\AppData\Local\quartus\modelsim.ini' is used as the ini file.
+# ** Note: (vlog-223) The environment variable MODELSIM will be deprecated in future releases. Please use QSIM_INI instead.
+# -- Compiling module dut_tb
+# 
+# Top level modules:
+# 	dut_tb
+# End time: 11:31:02 on Jul 21,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) 'C:\Users\user\AppData\Local\quartus\modelsim.ini' is used as the ini file.
+# ** Note: (vsim-223) The environment variable MODELSIM will be deprecated in future releases. Please use QSIM_INI instead.
+# vsim -voptargs="+acc" dut_tb 
+# Start time: 11:31:02 on Jul 21,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.dut_tb(fast)
+# Loading work.Top(fast)
+# Loading work.Edge_Detector(fast)
+# Loading work.D_ff(fast)
+# Loading work.FSM_Controller(fast)
+# Loading work.Up_Dn_cnt(fast)
+# Loading work.Wtime_ROM(fast)
+# Loading work.Wtime_Decoder(fast)
+# Loading work.seven_seg_D(fast)
+# rst = 1, Tellers = x, People = x, Wtime =  x, Full_Flag = x, Empty_Flag = x, Full_Alarm = x, Empty_Alarm = x, time = 0.0 s
+# rst = 0, Tellers = x, People = 0, Wtime =  x, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 0.0 s
+# rst = 1, Tellers = 1, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 0.1 s
+# rst = 1, Tellers = 2, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 10.1 s
+# rst = 1, Tellers = 2, People = 1, Wtime =  3, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 10.1 s
+# rst = 1, Tellers = 2, People = 2, Wtime =  4, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 12.2 s
+# rst = 1, Tellers = 2, People = 3, Wtime =  6, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 14.3 s
+# rst = 1, Tellers = 2, People = 4, Wtime =  7, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 16.4 s
+# rst = 1, Tellers = 2, People = 5, Wtime =  9, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 18.5 s
+# rst = 1, Tellers = 2, People = 6, Wtime = 10, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 20.6 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 22.7 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 22.7 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 24.8 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 24.9 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 26.9 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 27.0 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 29.0 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 29.1 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 31.1 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 31.2 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 33.2 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 33.3 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 35.3 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 35.4 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 37.4 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 37.5 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 39.5 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 39.6 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 41.6 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 41.7 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 43.7 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 43.8 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 45.8 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 45.9 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 47.9 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 48.0 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 1, Empty_Alarm = 0, time = 50.0 s
+# rst = 1, Tellers = 2, People = 7, Wtime = 12, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 50.1 s
+# rst = 1, Tellers = 3, People = 7, Wtime =  9, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 52.1 s
+# rst = 1, Tellers = 3, People = 6, Wtime =  8, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 52.1 s
+# rst = 1, Tellers = 3, People = 5, Wtime =  7, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 54.2 s
+# rst = 1, Tellers = 3, People = 4, Wtime =  6, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 56.3 s
+# rst = 1, Tellers = 3, People = 3, Wtime =  5, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 58.4 s
+# rst = 1, Tellers = 3, People = 2, Wtime =  4, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 60.5 s
+# rst = 1, Tellers = 3, People = 1, Wtime =  3, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 62.6 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 64.7 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 64.7 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 66.8 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 66.9 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 68.9 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 69.0 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 71.0 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 71.1 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 73.1 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 73.2 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 75.2 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 75.3 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 77.3 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 77.4 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 79.4 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 79.5 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 81.5 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 81.6 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 83.6 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 83.7 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 85.7 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 85.8 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 87.8 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 87.9 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 89.9 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 90.0 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 1, time = 92.0 s
+# rst = 1, Tellers = 3, People = 0, Wtime =  0, Full_Flag = 0, Empty_Flag = 1, Full_Alarm = 0, Empty_Alarm = 0, time = 92.1 s
+# rst = 1, Tellers = 3, People = 1, Wtime =  3, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 104.1 s
+# rst = 1, Tellers = 3, People = 2, Wtime =  4, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 105.2 s
+# rst = 1, Tellers = 3, People = 3, Wtime =  5, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 106.3 s
+# rst = 1, Tellers = 3, People = 4, Wtime =  6, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 108.4 s
+# rst = 1, Tellers = 3, People = 3, Wtime =  5, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 109.4 s
+# rst = 1, Tellers = 3, People = 4, Wtime =  6, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 109.7 s
+# rst = 1, Tellers = 3, People = 5, Wtime =  7, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 110.6 s
+# rst = 1, Tellers = 3, People = 4, Wtime =  6, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 111.2 s
+# rst = 1, Tellers = 3, People = 5, Wtime =  7, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 111.5 s
+# rst = 1, Tellers = 3, People = 6, Wtime =  8, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 114.8 s
+# rst = 1, Tellers = 3, People = 7, Wtime =  9, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 115.7 s
+# rst = 1, Tellers = 3, People = 7, Wtime =  9, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 115.7 s
+# rst = 1, Tellers = 3, People = 6, Wtime =  8, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 116.0 s
+# rst = 1, Tellers = 3, People = 7, Wtime =  9, Full_Flag = 0, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 116.6 s
+# rst = 1, Tellers = 3, People = 7, Wtime =  9, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 116.6 s
+# rst = 1, Tellers = 1, People = 7, Wtime = 21, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 122.0 s
+# rst = 1, Tellers = 3, People = 7, Wtime =  9, Full_Flag = 1, Empty_Flag = 0, Full_Alarm = 0, Empty_Alarm = 0, time = 125.6 s
+# ** Note: $stop    : DUT_TB.SV(80)
+#    Time: 127400 ms  Iteration: 0  Instance: /dut_tb
+# Break in Module dut_tb at DUT_TB.SV line 80
+package present Img
+# package Img is not present
+package reqiure image
+# bad option "reqiure": must be forget, ifneeded, names, prefer, present, provide, require, unknown, vcompare, versions, or vsatisfies
+package require image
+# can't find package image
+package present Img
+# package Img is not present
+package require Img
+# 1.4.9
+vsim -debugDB Top
+# End time: 11:32:26 on Jul 21,2026, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) 'C:\Users\user\AppData\Local\quartus\modelsim.ini' is used as the ini file.
+# ** Note: (vsim-223) The environment variable MODELSIM will be deprecated in future releases. Please use QSIM_INI instead.
+# vsim -debugDB Top 
+# Start time: 11:32:26 on Jul 21,2026
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Note: (vopt-220) 'C:\Users\user\AppData\Local\quartus\modelsim.ini' is used as the ini file.
+# ** Note: (vopt-223) The environment variable MODELSIM will be deprecated in future releases. Please use QSIM_INI instead.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vopt-143) Recognized 1 FSM in module "FSM_Controller(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.Top(fast)
+# Loading work.Edge_Detector(fast)
+# Loading work.D_ff(fast)
+# Loading work.FSM_Controller(fast)
+# Loading work.Up_Dn_cnt(fast)
+# Loading work.Wtime_ROM(fast)
+# Loading work.Wtime_Decoder(fast)
+# Loading work.seven_seg_D(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# do startup.do
+# Cannot open macro file: startup.do
+# Printing 1 page to 'Microsoft Print to PDF'
+quit
+# End time: 11:33:24 on Jul 21,2026, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 2
