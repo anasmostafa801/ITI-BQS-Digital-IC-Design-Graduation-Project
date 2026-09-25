@@ -1,0 +1,4 @@
+BEGIN 1:Top:fast:work
+    Pcount :  1:dut_tb:fast:work
+    Wtime :  1:dut_tb:fast:work
+END 
